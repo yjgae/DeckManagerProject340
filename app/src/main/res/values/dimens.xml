@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutPadding">10sp</dimen>
+    <dimen name="txtDimension">22sp</dimen>
+    <dimen name="calButtonText">30sp</dimen>
+</resources>

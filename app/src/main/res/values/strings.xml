@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">FoodBook</string>
+    <string name="text_start">Start</string>
+    <string name="text_title">FoodBook</string>
+
+    //NavigationDrawer
+    <string name="foodlist">FoodList</string>
+    <string name="gallery">Profile</string>
+    <string name="map">Map</string>
+
+    <string name="food_title">Title</string>
+    <string name="food_dscrp">Description</string>
+    <string name="food_images">foodImage</string>
+
+
+    //BuyFragment strings
+    <string name="buyfrag_title">Profile Creator</string>
+    <string name="trade_summary">Profile Summary</string>
+    <string name="hint_enter_quantity">Enter your age</string>
+    <string name="button_buy">Create</string>
+    <string name="button_sell">SELL</string>
+    <string name="waitForData">Profile is being created..</string>
+    <string name="CalHint">Double click to pick your birthday</string>
+    <string name="radio_option_day">Minnesota</string>
+    <string name="radio_option_gtc">North Dakota</string>
+    ////BuyFragment Spinner
+    <string-array name="buying_option">
+        <item>Student</item>
+        <item>Teenager</item>
+        <item>Worker</item>
+    </string-array>
+
+    //FoodRecView 10 items
+    <string-array name="food_menu">
+        <item>Buffalo Wild Wings</item>
+        <item>Chipotle</item>
+        <item>Dominos</item>
+        <item>Erbert and Gerberts</item>
+        <item>FiveGuys</item>
+        <item>McDonalds</item>
+        <item>PapaJohns</item>
+        <item>PizzaPatrol</item>
+        <item>Subway</item>
+        <item>Wendys</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Chicken</item>
+        <item>Mexican Food</item>
+        <item>Pizza</item>
+        <item>Sandwich</item>
+        <item>Burger</item>
+        <item>Burger</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Sandwich</item>
+        <item>Burger</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
