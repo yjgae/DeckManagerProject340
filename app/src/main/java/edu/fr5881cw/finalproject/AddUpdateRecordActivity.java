@@ -125,6 +125,10 @@ public class AddUpdateRecordActivity extends AppCompatActivity {
 
         Toast.makeText(this,"Record Added against ID: "+id, Toast.LENGTH_SHORT).show();
     }
+       
+    
+    //Is this all used for a camera function that we didn't include in the user stories? See comment about this at end of page..
+
 
     private void imagePickDialog() {
         //options to display in dialog
@@ -308,3 +312,6 @@ public class AddUpdateRecordActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
     }
 }
+
+
+        //Camera stuff above, from line 128 to here?? like I know he won't look through the code, its more about how the GUI looks at the end but cutting this out will also help us troubleshoot and what not if its not in here. However, this doesn't feel like my call, at least exclusively.

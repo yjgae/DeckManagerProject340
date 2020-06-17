@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
+//do we need this one?
+
 public class GalleryFragment extends Fragment {
 
     Button galclk;

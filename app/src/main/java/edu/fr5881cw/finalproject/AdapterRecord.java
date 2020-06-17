@@ -48,6 +48,7 @@ public class AdapterRecord extends RecyclerView.Adapter<AdapterRecord.HolderReco
         String bio = model.getBio();
         String phone = model.getPhone();
         String email = model.getEmail();
+        //do we need any of the three below? If not there is more we could do...
         String dob = model.getDob();
         String addedTime = model.getAddedTime();
         String updatedTime = model.getUpdatedTime();
@@ -113,6 +114,3 @@ public class AdapterRecord extends RecyclerView.Adapter<AdapterRecord.HolderReco
         }
     }
 }
-
-
-//I love chicken!!
