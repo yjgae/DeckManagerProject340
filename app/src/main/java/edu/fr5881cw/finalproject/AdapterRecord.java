@@ -114,3 +114,4 @@ public class AdapterRecord extends RecyclerView.Adapter<AdapterRecord.HolderReco
         }
     }
 }
+

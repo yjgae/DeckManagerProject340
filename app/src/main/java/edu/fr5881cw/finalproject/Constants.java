@@ -1,7 +1,7 @@
 package edu.fr5881cw.finalproject;
 
 public class Constants {
-
+        ///Will likes chicken!!
     //db name
     public static final String DB_NAME = "MY_RECORDS_DB";
     //db version
