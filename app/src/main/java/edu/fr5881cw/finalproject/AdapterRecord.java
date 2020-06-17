@@ -115,3 +115,4 @@ public class AdapterRecord extends RecyclerView.Adapter<AdapterRecord.HolderReco
 }
 
 
+//I love chicken!!
