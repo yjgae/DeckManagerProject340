@@ -312,6 +312,5 @@ public class AddUpdateRecordActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
     }
 }
-
-
         //Camera stuff above, from line 128 to here?? like I know he won't look through the code, its more about how the GUI looks at the end but cutting this out will also help us troubleshoot and what not if its not in here. However, this doesn't feel like my call, at least exclusively.
+
