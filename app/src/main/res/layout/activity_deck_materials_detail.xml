@@ -26,7 +26,7 @@
                 //Ctrl + Alt + L to format code
 
                 <TextView
-                    android:id="@+id/bioTv"
+                    android:id="@+id/deck_materials_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_span="3"
@@ -486,6 +486,119 @@
                     android:inputType="number"
                     android:padding="5dp"
                     android:text="each"
+                    android:textColor="@color/colorBlack" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                //Ctrl + Alt + L to format code
+
+                <TextView
+                    android:id="@+id/deck_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:padding="10dp"
+                    android:text="Deck Size"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorBlack" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Length"
+                    android:textColor="@color/colorBlack" />
+
+                <EditText
+                    android:id="@+id/length_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/id_length"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:text="feet"
+                    android:textColor="@color/colorBlack" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Width"
+                    android:textColor="@color/colorBlack" />
+
+                <EditText
+                    android:id="@+id/width_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/id_width"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:text="feet"
+                    android:textColor="@color/colorBlack" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Height"
+                    android:textColor="@color/colorBlack" />
+
+                <EditText
+                    android:id="@+id/height_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/id_height"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:text="feet"
                     android:textColor="@color/colorBlack" />
             </TableRow>
 
